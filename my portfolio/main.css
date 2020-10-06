@@ -213,7 +213,13 @@ li{
 	color: #00ccff;
 	font-family: montserrat, sans-serif;
 	font-size: 5rem;
-	opacity: 0.3
+	opacity: 0.3;
+	margin-bottom:4rem;
+}
+
+.about-heading h6{
+	font-family: montserrat, sans-serif;
+	font-size: 1.3rem;
 }
 
 .about-details p{
@@ -245,6 +251,10 @@ li{
 
 .fa-github-square:hover{
 	color: #808080;
+}
+
+.handshake-icon{
+
 }
 /*End about*/
 
