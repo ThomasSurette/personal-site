@@ -18,6 +18,10 @@ body{
 	background-size: cover;
 }
 
+section{
+	padding: 6rem;
+}
+
 a{
 	text-decoration: none;
 	color: #eee
@@ -31,6 +35,34 @@ p{
 img{
 	width: 100%
 }
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?2ihm1g');
+  src:  url('fonts/icomoon.eot?2ihm1g#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?2ihm1g') format('truetype'),
+    url('fonts/icomoon.woff?2ihm1g') format('woff'),
+    url('fonts/icomoon.svg?2ihm1g#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 /*End global*/
 
 /*Start reusable*/
@@ -45,7 +77,7 @@ img{
 
 .section-heading{
 	text-align: center;
-	margin-top: 10rem;
+	margin-bottom: 10rem;
 	font-family: montserrat, sans-serif;
 }
 
@@ -253,9 +285,19 @@ li{
 	color: #808080;
 }
 
-.handshake-icon{
-
+.icon-handshake-icon:before {
+  content: "\e900";
+  font-size: 4.3rem;
 }
+
+a, a span{
+	transition: color 650ms;
+}
+
+a:hover, a:hover span {
+    color: #f73b33;
+}
+
 /*End about*/
 
 /*Start services*/
@@ -324,12 +366,21 @@ li{
 	flex: 1;
 }
 
+.portfolio-description h1{
+	font-size: 3rem;
+	font-family: Montserrat, sans-serif;
+	margin: 1rem 0;
+}
+
 .portfolio-description h6{
 	font-size: 1.5rem;
+	font-family: Montserrat, sans-serif;
 	text-transform: uppercase;
 	font-weight: 300;
 	opacity: 0.3;
 }
+
+
 
 /*End Portfolio*/
 
