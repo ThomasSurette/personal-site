@@ -256,20 +256,20 @@ li{
 .about-details p{
 	font-family: roboto, sans-serif;
 	margin-bottom: 2rem;
+	flex-wrap: wrap;
 }
 
 .profile-img{
 	flex: 1;
 	margin-right: 5rem;
+	left: 5rem;
 }
 
 .about-details{
 	flex: 1;
+	flex-wrap: wrap;
 }
 
-.social-media{
-
-}
 
 .social-media i{
 	font-size: 5rem;
@@ -456,14 +456,35 @@ li{
 	left: -8.36rem;
 	height: 1.5rem;
 	width: 1.5rem;
-	background-color: #313534;
+	background-color: #232323;
 }
 
 /*End timeline*/
 
 /*Start contact*/
 
+.contact{
+	background-color: #212121;
+}
 
+form{
+	width: 70%;
+	margin: -6rem auto 0rem;
+}
+
+form label{
+	font-size: 1.5rem;
+	font-family: Montserrat, sans-serif;
+}
+
+input,
+select, 
+textarea{
+	width: 100%;
+	padding: 1rem;
+	margin-bottom: 20px;
+
+}
 
 /*End contact*/
 
