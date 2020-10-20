@@ -490,8 +490,7 @@ form label{
 	font-family: Montserrat, sans-serif;
 }
 
-input,
-select, 
+input, 
 textarea{
 	font-family: Roboto, sans-serif;
 	width: 100%;
