@@ -278,6 +278,10 @@ li{
 	transition: color 650ms;
 }
 
+.fa-file:hover{
+	color: #00ccff;
+}
+
 .fa-linkedin:hover{
 	color: #0077b5;
 }
@@ -286,9 +290,10 @@ li{
 	color: #808080;
 }
 
-.icon-handshake-icon:before {
+.icon-handshake-icon:after {
   content: "\e900";
-  font-size: 4.3rem;
+  font-size: 4.5rem;
+
 }
 
 .social-media a, a span{
