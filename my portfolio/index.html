@@ -217,13 +217,14 @@
 				<h1>Contact</h1>
 				<h6>How you can reach me</h6>
 			</div>
-			<form action="http://formspree.io/thomas@tsurette.com" method="post" data-aos="fade-up" data-aos-delay="300">
+			<form action="https://formspree.io/thomas@tsurette.com" method="post" data-aos="fade-up" data-aos-delay="300">
 				<label for="name">Name</label>
 				<input type="text" id="name" name="name" placeholder="Enter your name..." required>
 				<label for="email">Email</label>
 				<input type="text" id="email" name="email" placeholder="Enter your email..." required>
 				<label for="service">Service</label>
-				<select name="services" id="service">
+				<select name="services" id="service" required>
+					<option value="Select" selected="" disabled="">Select</option>
 					<option value="">Mobile Development</option>
 					<option value="">Web Development</option>
 					<option value="">Software Development</option>
