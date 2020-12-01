@@ -6,13 +6,13 @@
 }
 
 html{
-	font-size: 10px
+	font-size: 10px;
 	font-size: 'Roboto', sans-serif;
-	color: #eee
+	color: #eee;
 }
 
 body{
-	width: 100%
+	width: 100%;
 	height: 100%;
 	background: url("images/sitebg.jpg") no-repeat center fixed;
 	background-size: cover;
@@ -103,7 +103,7 @@ img{
 
 /*Start header*/
 header{
-	width: 100%
+	width: 100%;
 	height: 100vh;
 	margin-bottom: 100vh;
 }
@@ -334,8 +334,8 @@ li{
 	font-family: 'Roboto', sans-serif;
 	font-size: 1rem;
 	text-align: center;
-	margin left:auto;
-	margin right: auto;
+	margin-left:auto;
+	margin-right: auto;
 }
 
 .icon-container{
@@ -591,6 +591,7 @@ input[type="submit"]:hover{
 
 	.about .container{
 		flex-direction: column;
+		position: static;
 	}
 
 	.profile-img{
